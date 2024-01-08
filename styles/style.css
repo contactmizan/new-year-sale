@@ -4,14 +4,6 @@
     padding: 0;
 }
 
-h {
-    /*font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Open Sans', sans-serif;*/
-}
-
 .container {
     width: 82%;
     max-width: 1320px;
@@ -100,7 +92,7 @@ font-family: 'Open Sans', sans-serif;*/
     width: 1320px;
     height: 600px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .midnight h1 {
@@ -117,7 +109,7 @@ font-family: 'Open Sans', sans-serif;*/
     padding-top: 120px;
 }
 
-.midnight p {
+.midnight-p {
     color: rgba(255, 255, 255, 0.80);
 
     font-family: Inter;
@@ -126,8 +118,9 @@ font-family: 'Open Sans', sans-serif;*/
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
-    width: 571px;
     padding-top: 24px;
+    width: 697px;
+    height: 60px;
 }
 
 .midnight button {
@@ -264,6 +257,8 @@ font-family: 'Open Sans', sans-serif;*/
     width: 276px;
     text-align: left;
     padding-top: 20px;
+    text-align: left;
+    padding-left: 100px;
 }
 
 .year img {
@@ -276,7 +271,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 .best-offer h1,
 h2,
-p {
+#best {
     text-align: left;
     margin-left: 110px;
     justify-content: center;
@@ -313,6 +308,7 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-bottom: 20px;
 }
 
 .functional h1 {
@@ -333,14 +329,96 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    /* 160% */
-    max-width: 1068px;
+    padding-left: 140px;
+    width: 1068px;
     height: 95px;
 
 }
 
 .functional {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 50px;
+}
+
+.discount {
+    position: relative;
+    right: 45%;
+    bottom: -20%;
+
+}
+
+.girl {
+    position: absolute;
+}
+
+.mizan {
+    margin: 10px 200px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.gr75 {
+    width: 450px;
+    position: relative;
+
+    left: 20%;
+    top: -150px;
+
+}
+
+.rect2 {
+    width: 1341px;
+    height: 150px;
+    margin: 100px 100px;
+    position: absolute;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.gifts h3 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.gifts h1 {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.gifts p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.gifts {
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.products {
+    margin-left: 110px;
+    padding-top: 48px;
 }
