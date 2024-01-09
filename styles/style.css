@@ -421,6 +421,12 @@ h2,
 .products {
     margin-left: 110px;
     padding-top: 48px;
+
+}
+
+.products img {
+    padding-inline: 5px;
+    padding-bottom: 5px;
 }
 
 .end-body h1 {
